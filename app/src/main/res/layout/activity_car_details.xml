@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <kevin.lo.cardealers.cardetails.view.VehicleView
+            android:id="@+id/vehicle"
+            android:layout_marginBottom="-50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <kevin.lo.cardealers.cardetails.view.PriceView
+            android:id="@+id/price"
+            android:layout_marginBottom="-40dp"
+            android:layout_below="@id/vehicle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+<!--
+        <kevin.lo.cardealers.cardetails.view.MpgView
+            android:id="@+id/mpg"
+            android:layout_marginBottom="-30dp"
+            android:layout_below="@id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+-->
+        <kevin.lo.cardealers.cardetails.view.EngineView
+            android:id="@+id/engine"
+            android:layout_marginBottom="-50dp"
+            android:layout_below="@id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <kevin.lo.cardealers.cardetails.view.ArticleView
+            android:id="@+id/articles"
+            android:layout_below="@id/engine"
+            android:layout_marginBottom="-30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <kevin.lo.cardealers.cardetails.view.DealerView
+            android:id="@+id/dealer"
+            android:layout_below="@id/articles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Directions to Nearby Dealer"/>
+
+        <TextView
+            android:id="@+id/error"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:padding="20dp"
+            android:text="No detailed information can be found on this car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</ScrollView>
