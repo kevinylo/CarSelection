@@ -3,15 +3,13 @@
 Functionalities of this app:
 
 Finding a car
-- A user should be able to find the car they are interested in via a car browsing or searching interface
+- A user can find the car they are interested in via a searching interface
 
 Viewing car details
-- Once a user selects a car, they should be able to view details information for that vehicle, these are the minium requirements:
-images
-- vehicle information
-- links to articles for this car
-- Directions to dealership
-- Call to action on the vehicle details page that shows them the nearest dealerships for that car's manufacture near them, and show them the direction to getting there.
+- Once a user selects a car, details information for that vehicle will be shown including vehicle information, links to articles for this car, as well as directions to dealership
+- There is also the ability to show nearest dealerships for that car's manufacture near their location, and show them the direction to getting there.
+
+The app uses edmunds open access data points.
 
 Project build flavor
 
