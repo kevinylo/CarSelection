@@ -1,5 +1,18 @@
 # CarSelection
 
+Functionalities of this app:
+
+Finding a car
+- A user should be able to find the car they are interested in via a car browsing or searching interface
+
+Viewing car details
+- Once a user selects a car, they should be able to view details information for that vehicle, these are the minium requirements:
+images
+- vehicle information
+- links to articles for this car
+- Directions to dealership
+- Call to action on the vehicle details page that shows them the nearest dealerships for that car's manufacture near them, and show them the direction to getting there.
+
 Project build flavor
 
 Dev 
